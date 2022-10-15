@@ -47,15 +47,14 @@ Nowadays I am attnding in an Internship in one of the IT startup company in my h
     for (let j = 0; j < length; j++) {
     if (newArr[j].id === parent.parent) {
     index = j;
-    }
-    }
-
+    }}
       index === -1
         ? newArr.push({ ...parent, children: [] })
         : newArr[index].children.push(parent);
     }}
     return newArr;
     };
+    
 ***
 
 ##### Experience
