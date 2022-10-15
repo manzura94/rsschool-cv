@@ -20,6 +20,7 @@ body{
     --dark-gray-color: #505050;
     --ligth-gray-color: #777777;
     --pink-color: #b9c6fc;
+    --white-color: #fff
   }
 
   .wrapper{
@@ -103,7 +104,7 @@ header h2{
     align-items: center;
     width: 50%;
     background: var(--dark-gray-color);
-    color: #fff;
+    color: var(--white-color);
     padding: 20px 100px;
     align-self: center;
     transform: translate(0, -50%);
@@ -183,7 +184,7 @@ footer{
     margin-right: 50px;
     align-items: center;
     background: var(--dark-gray-color);
-    color: #fff;
+    color: var(--white-color);
 }
 .rschool img{
     width: 75px;
@@ -202,5 +203,5 @@ footer{
     gap: 10px;
 }
 .github span{
-    color: #fff;
+    color: var(--white-color);
 }
