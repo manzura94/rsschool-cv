@@ -8,8 +8,11 @@
 ##### Contact information:
 
 **Phone number**: +998886005558
+
 **E-mail**: manzura_jabborova@mail.ru
+
 **Telegram**: @maria
+
 **[LinkedIn](linkedin.com/in/manzura-jabbarova-19066712a)**
 
 ---
