@@ -24,11 +24,11 @@ besides there’s a huge amount of free high quality resources for self-educatio
 I believe, that my ability to learn and to gain new skills will lead me through this path of becoming a proficient Frontend Developer.
 Nowadays I am attnding in an Internship in one of the IT startup company in my hometown
 #####Skills and Proficiency:
--HTML5, CSS3, SASS
--JavaScript Basics
--React js
--Git, GitHub
--VS Code
+- HTML5, CSS3, SASS
+- JavaScript Basics
+- React js
+- Git, GitHub
+- VS Code
 
 ##### Code example:
 
@@ -53,18 +53,24 @@ Nowadays I am attnding in an Internship in one of the IT startup company in my h
       index === -1
         ? newArr.push({ ...parent, children: [] })
         : newArr[index].children.push(parent);
-    }
-
-    }
+    }}
     return newArr;
     };
 ***
+
 ##### Experience
+
 I have not got enough experience yet as I am still learning and gaining experience as a frontend developer attending in internship. Below is my first work 
+
 ***[Netlify](https://radiant-torrone-e4a082.netlify.app)***
+
 ***
+
 ##### Education
--Management Development Institute in Tashkent, Business and Economics faculty
--Data Learning Center in Xorezm, Frontend developer faculty
+
+- Management Development Institute in Tashkent, Business and Economics faculty
+- Data Learning Center in Xorezm, Frontend developer faculty
+
 ##### English
+
 IELTS 6.5
