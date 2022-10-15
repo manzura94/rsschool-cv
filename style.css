@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+img{
+    vertical-align: top;
+}
+
+body{
+    font-family: 'Cabin', sans-serif;
+}
+
+:root {
+    --dark-gray-color: #505050;
+    --ligth-gray-color: #777777;
+    --pink-color: #b9c6fc;
+  }
