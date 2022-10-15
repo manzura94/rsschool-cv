@@ -33,14 +33,13 @@
                   <p>manzura_jabborova@mail.ru</p>
                 </li>
                 <li>
-                  <img src="./img/icons/telegram.svg" alt="telegram image"  >
+                  <img src="./img/icons/telegram.svg" alt="telegram image" >
                   <p>@maria</p>
                 </li>
                 <li>
                   <img src="./img/icons/linkedin.svg" alt="linkedin" >
                   <a href="linkedin.com/in/manzura-jabbarova-19066712a"
-                    >LinkedIn</a
-                  >
+                    >LinkedIn</a>
                 </li>
               </ul>
             </section>
@@ -114,10 +113,7 @@
             <p>Economics faculty</p>
             <p>Years: 2010-2013</p>
             <p>
-              <strong
-                >Management Development Institute of Singapore in
-                Tashkent</strong
-              >
+              <strong>Management Development Institute of Singapore in Tashkent</strong>
             </p>
             <p>Business and Economics Faculty</p>
             <p>Years: 2016-2020</p>
@@ -145,7 +141,7 @@
             <p>
               There is a given array with objects in itwith id and parent
               number, we should first open new children key in an object with
-              empty array and if object parent number matches other object’s id,
+              empty array and if object parent number matches other objects id,
               that should be nested in children array of that matched object
             </p>
           </section>
@@ -156,17 +152,16 @@
               for (let i = 0; i == arr.length; i++) {<br>
               let parent = arr[i]<br>
               if (newArr.length === 0) {<br>
-                 newArr.push({
-              ...parent, children: [] }); } else { <br>
-                let length = newArr.length <br>
-              let index = -1; <br>
-              for (let j = 0; j == length; j++) { <br>
-                if
-              (newArr[j].id === parent.parent) { index = j; } }<br>
+                 newArr.push({<br>
+              ...parent, children: [] }); } else {<br>
+                let length = newArr.length<br>
+              let index = -1<br>
+              for (let j = 0; j == length; j++) {<br>
+                if(newArr[j].id === parent.parent) { index = j; } }<br>
                index === -1 ?<br>
               newArr.push({ ...parent, children: [] }) :<br>
               newArr[index].children.push(parent); } }<br>
-               return newArr; };
+               return newArr}
             </pre>
           </section>
         </div>
