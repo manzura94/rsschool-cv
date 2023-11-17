@@ -28,7 +28,7 @@ Nowadays I am attending in an Internship in one of the IT startup company in my 
 
 #### **Skills and Proficiency:**
 
-- HTML5, CSS3, SASS
+- HTML5, CSS3, SASS, SCSS
 
 - JavaScript Basics
 
@@ -76,7 +76,10 @@ I have not got enough experience yet as I am still learning and gaining experien
 ***[tejamkor](https://tejamkor-manzura94.vercel.app/)***
 
 ***[codebrain](https://codebrain-front.vercel.app/)***
+
+
 #### **Education**
+
 * Management Development Institute in Tashkent, Business and Economics faculty
 
 * Data Learning Center in Xorezm, Frontend developer faculty
@@ -85,3 +88,5 @@ I have not got enough experience yet as I am still learning and gaining experien
 
 #### **English**
 IELTS 6.5
+
+Besides Ielts, I have graduated my bachelor degree in english language and taking my master degree in english as well.
