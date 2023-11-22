@@ -8,6 +8,187 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="wrapper">
+        <div class="columns _container">
+          <aside class="left-column">
+            <header>
+              <div class="header-image">
+                <img src="./img/profile.png" alt="image of girl" >
+              </div>
+              <h1>Manzura Jabbarova</h1>
+              <h2>Junior Frontend Developer</h2>
+            </header>
+            <div class="main-container">
+              <section class="contacts">
+                <div class="section-title">
+                  <h3>Contacts</h3>
+                </div>
+                <ul class="section-details">
+                  <li>
+                    <img src="./img/icons/phone.svg" alt="phone image" >
+                    <p>+99888-600-5558</p>
+                  </li>
+                  <li>
+                    <img src="./img/icons/envelop.svg" alt="envelop image" >
+                    <p>manzura_jabborova@mail.ru</p>
+                  </li>
+                  <li>
+                    <img src="./img/icons/telegram.svg" alt="telegram image" >
+                    <p>@maria</p>
+                  </li>
+                  <li>
+                    <img src="./img/icons/linkedin.svg" alt="linkedin" >
+                    <a href="linkedin.com/in/manzura-jabbarova-19066712a"
+                      >LinkedIn</a>
+                  </li>
+                </ul>
+              </section>
+              <section class="skills">
+                <div class="section-title">
+                  <h3>Skills</h3>
+                </div>
+                <ul class="section-details">
+                  <li>HTML5, CSS3, SCSS</li>
+                  <li>JavaScript Basics</li>
+                  <li>React js</li>
+                  <li>Next js</li>
+                  <li>Git, GitHub</li>
+                  <li>VS Code</li>
+                </ul>
+              </section>
+              <section class="languages">
+                <div class="section-title">
+                  <h3>Languages</h3>
+                </div>
+                <ul class="section-details">
+                  <li>
+                    <p class="language-name">Uzbek</p>
+                    <p>Native</p>
+                  </li>
+                  <li>
+                    <p class="language-name">Russian</p>
+                    <p>Upper-intermediate</p>
+                  </li>
+                  <li>
+                    <p class="language-name">Italian</p>
+                    <p>Intermediate</p>
+                  </li>
+                  <li>
+                    <p class="language-name">English</p>
+                    <p>Advanced</p>
+                  </li>
+                </ul>
+              </section>
+            </div>
+          </aside>
+          <div class="right-column">
+            <section class="about">
+              <div class="sub-header">
+                <img src="./img/icons/myself.svg" alt="myself icon" >
+                <div class="description-title">
+                  <h3>About myself</h3>
+                </div>
+              </div>
+              <p>
+                Having started my career as a frontend developer with minimum
+                skills, I became passioned in coding. My keen interest in learning
+                new technologies led me to learn and posses some skills in IT
+                learning center to create a new career path for myself in IT
+                world,where I continued self-learning, examining the process of
+                creating websites and their designs and others. I’m interested in
+                Web Development because this occupation provides endless
+                possibilities for professional growth, besides there’s a huge
+                amount of free high quality resources for self-education and a
+                large community of developers. I believe, that my ability to learn
+                and to gain new skills will lead me through this path of becoming
+                a proficient Frontend Developer. Nowadays I am attnding in an
+                Internship in one of the IT startup company in my hometown
+              </p>
+            </section>
+            <section class="education">
+              <div class="sub-header">
+                <img src="./img/icons/education.svg" alt="education icon" >
+                <div class="description-title">
+                  <h3>Education</h3>
+                </div>
+              </div>
+              <p>
+                <strong>Academic Lyceum Number 3</strong>
+              </p>
+              <p>Economics faculty</p>
+              <p>Years: 2010-2013</p>
+              <p>
+                <strong>Management Development Institute of Singapore in Tashkent</strong>
+              </p>
+              <p>Business and Economics Faculty</p>
+              <p>Years: 2016-2020</p>
+              <p>
+                <strong> University of Messina, Italy</strong>
+              </p>
+              <p>Business Consulting and Management</p>
+              <p>Years: 2023-present</p>
+            </section>
+            <section class="courses">
+              <div class="sub-header">
+                <img src="./img/icons/courses.svg" alt="course icon" >
+                <div class="description-title">
+                  <h3>Courses</h3>
+                </div>
+              </div>
+              <ul>
+                <li>Data Learning Center in Urgench, Uzb</li>
+                <li>JavaScript Manual on learnjavascript.ru</li>
+                <li>RS Schools «JavaScript/Front-end. Stage 0»</li>
+              </ul>
+            </section>
+            <section class="code-example">
+              <div class="sub-header">
+                <img src="./img/icons/code.svg" alt="code icon" >
+                <div class="description-title">
+                  <h3>Code Example</h3>
+                </div>
+              </div>
+              <p>
+                There is a given array with objects in it with id and parent
+                number, we should first open new children key in an object with
+                empty array and if object parent number matches other objects id,
+                that should be nested in children array of that matched object
+              </p>
+            </section>
+            <section class="code">
+              <h3>Solution:</h3>
+              <pre>
+                let newArr = []<br>
+                for (let i = 0; i == arr.length; i++) {<br>
+                let parent = arr[i]<br>
+                if (newArr.length === 0) {<br>
+                   newArr.push({<br>
+                ...parent, children: [] }); } else {<br>
+                  let length = newArr.length<br>
+                let index = -1<br>
+                for (let j = 0; j == length; j++) {<br>
+                  if(newArr[j].id === parent.parent) { index = j; } }<br>
+                 index === -1 ?<br>
+                newArr.push({ ...parent, children: [] }) :<br>
+                newArr[index].children.push(parent); } }<br>
+                 return newArr}
+              </pre>
+            </section>
+          </div>
+        </div>
+        <footer >
+          <div class="container">
+  
+            <a href="https://github.com/manzura94" class="github">
+              <img src="./img/icons/github.svg" alt="github icon">
+              <span>Visit my Github</span>
+            </a>
+            <p>10/2022</p>
+            <a href="https://rs.school/js/" class="rschool">
+              <img class="change" src="./img/icons/rs_school_js.svg" alt="rs school icon">
+            </a>
+          </div>
+        </footer>
+      </div>
 </body>
 </html>
