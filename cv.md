@@ -45,7 +45,7 @@ Nowadays I am attending in an Internship in one of the IT startup company in my 
 #### **Code example:**
 
 > There is a given array with objects in it with id and parent number, we should first open new children key in an object with empty array and if object parent number matches other object's id, that should be nested in children array of that matched object
->
+
     const sortMenu = (arr) => {
     arr.sort((a, b) => a.parent - b.parent);
     let newArr = [];
@@ -68,31 +68,29 @@ Nowadays I am attending in an Internship in one of the IT startup company in my 
     return newArr;
     };
 
-***
+---
 
 #### **Experience**
 
-* Frontend Developer - VOSYN.ai 
-* Frontend Developer Intern - APPX Group
-
+- Frontend Developer - VOSYN.ai
+- Frontend Developer Intern - APPX Group
 
 ### **Projects**
 
-***[pokedex](https://pokedex-alpha-ecru.vercel.app/)***
+**_[pokedex](https://pokedex-alpha-ecru.vercel.app/)_**
 
-***[tejamkor](https://tejamkor-manzura94.vercel.app/)***
+**_[tejamkor](https://tejamkor-manzura94.vercel.app/)_**
 
-***[portfolio](https://portfolio-git-main-manzura94s-projects.vercel.app/)***
-
+**_[portfolio](https://portfolio-git-main-manzura94s-projects.vercel.app/)_**
 
 #### **Education**
 
-* Management Development Institute in Tashkent, Business and Economics faculty
+- Management Development Institute in Tashkent, Business and Economics faculty
 
-* Data Learning Center in Xorezm, Frontend developer faculty
+- Data Learning Center in Xorezm, Frontend developer faculty
 
-* University of Messina in Italy, Master degree at Business Consulting and Management
+- University of Messina in Italy, Master degree at Business Consulting and Management
 
 #### **English**
-IELTS 6.5
 
+IELTS 6.5

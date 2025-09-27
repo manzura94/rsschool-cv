@@ -1,11 +1,11 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" >
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css" >
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <div class="wrapper">
@@ -13,7 +13,7 @@
         <aside class="left-column">
           <header>
             <div class="header-image">
-              <img src="./img/profile.png" alt="image of girl" >
+              <img src="./img/profile.png" alt="image of girl" />
             </div>
             <h1>Manzura Jabbarova</h1>
             <h2>Junior Frontend Developer</h2>
@@ -25,21 +25,22 @@
               </div>
               <ul class="section-details">
                 <li>
-                  <img src="./img/icons/phone.svg" alt="phone image" >
+                  <img src="./img/icons/phone.svg" alt="phone image" />
                   <p>+998910190116</p>
                 </li>
                 <li>
-                  <img src="./img/icons/envelop.svg" alt="envelop image" >
+                  <img src="./img/icons/envelop.svg" alt="envelop image" />
                   <p>manzura_jabborova@mail.ru</p>
                 </li>
                 <li>
-                  <img src="./img/icons/telegram.svg" alt="telegram image" >
+                  <img src="./img/icons/telegram.svg" alt="telegram image" />
                   <p>@maria</p>
                 </li>
                 <li>
-                  <img src="./img/icons/linkedin.svg" alt="linkedin" >
+                  <img src="./img/icons/linkedin.svg" alt="linkedin" />
                   <a href="linkedin.com/in/manzura-jabbarova-19066712a"
-                    >LinkedIn</a>
+                    >LinkedIn</a
+                  >
                 </li>
               </ul>
             </section>
@@ -73,7 +74,7 @@
                   <p class="language-name">English</p>
                   <p>Advanced</p>
                 </li>
-                 <li>
+                <li>
                   <p class="language-name">Italian</p>
                   <p>Beginner</p>
                 </li>
@@ -84,7 +85,7 @@
         <div class="right-column">
           <section class="about">
             <div class="sub-header">
-              <img src="./img/icons/myself.svg" alt="myself icon" >
+              <img src="./img/icons/myself.svg" alt="myself icon" />
               <div class="description-title">
                 <h3>About myself</h3>
               </div>
@@ -107,22 +108,20 @@
           </section>
           <section class="education">
             <div class="sub-header">
-              <img src="./img/icons/education.svg" alt="education icon" >
+              <img src="./img/icons/education.svg" alt="education icon" />
               <div class="description-title">
                 <h3>Education</h3>
               </div>
             </div>
             <p>
-              <strong>Academic Lyceum Number 3</strong>
-            </p>
-            <p>Economics faculty</p>
-            <p>Years: 2010-2013</p>
-            <p>
-              <strong>Management Development Institute of Singapore in Tashkent</strong>
+              <strong
+                >Management Development Institute of Singapore in
+                Tashkent</strong
+              >
             </p>
             <p>Business and Economics Faculty</p>
             <p>Years: 2016-2020</p>
-             <p>
+            <p>
               <strong>University of Messina</strong>
             </p>
             <p>Business Consulting and Management</p>
@@ -130,7 +129,7 @@
           </section>
           <section class="courses">
             <div class="sub-header">
-              <img src="./img/icons/courses.svg" alt="course icon" >
+              <img src="./img/icons/courses.svg" alt="course icon" />
               <div class="description-title">
                 <h3>Courses</h3>
               </div>
@@ -143,7 +142,7 @@
           </section>
           <section class="code-example">
             <div class="sub-header">
-              <img src="./img/icons/code.svg" alt="code icon" >
+              <img src="./img/icons/code.svg" alt="code icon" />
               <div class="description-title">
                 <h3>Code Example</h3>
               </div>
@@ -158,34 +157,39 @@
           <section class="code">
             <h3>Solution:</h3>
             <pre>
-              let newArr = []<br>
-              for (let i = 0; i == arr.length; i++) {<br>
-              let parent = arr[i]<br>
-              if (newArr.length === 0) {<br>
-                 newArr.push({<br>
-              ...parent, children: [] }); } else {<br>
-                let length = newArr.length<br>
-              let index = -1<br>
-              for (let j = 0; j == length; j++) {<br>
-                if(newArr[j].id === parent.parent) { index = j; } }<br>
-               index === -1 ?<br>
-              newArr.push({ ...parent, children: [] }) :<br>
-              newArr[index].children.push(parent); } }<br>
-               return newArr}
+                <code>
+                    let newArr = []
+                    for (let i = 0; i == arr.length; i++) {
+                        let parent = arr[i]
+                        if (newArr.length === 0) {
+                            newArr.push({
+                                ...parent, children: [] }); } else {
+                                    let length = newArr.length
+                                    let index = -1
+                                    for (let j = 0; j == length; j++) {
+                                        if(newArr[j].id === parent.parent) { index = j; } }
+                                        index === -1 ?
+                                        newArr.push({ ...parent, children: [] }) :
+                                        newArr[index].children.push(parent); } }
+                                        return newArr }
+                                    </code>
             </pre>
           </section>
         </div>
       </div>
-      <footer >
+      <footer>
         <div class="container">
-
           <a href="https://github.com/manzura94" class="github">
-            <img src="./img/icons/github.svg" alt="github icon">
+            <img src="./img/icons/github.svg" alt="github icon" />
             <span>Visit my Github</span>
           </a>
           <p>10/2022</p>
           <a href="https://rs.school/js/" class="rschool">
-            <img class="change" src="./img/icons/rs_school_js.svg" alt="rs school icon">
+            <img
+              class="change"
+              src="./img/icons/rs_school_js.svg"
+              alt="rs school icon"
+            />
           </a>
         </div>
       </footer>
