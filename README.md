@@ -1,1 +1,1 @@
-**[CV](https://manzura94.github.io/rsschool-cv/cv)**
+**[CV](https://manzura94.github.io/rsschool-cv/)**
