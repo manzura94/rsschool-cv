@@ -96,4 +96,3 @@ Nowadays I am attending in an Internship in one of the IT startup company in my 
 #### **English**
 IELTS 6.5
 
-Besides Ielts, I have graduated my bachelor degree in english language and taking my master degree in english as well.
