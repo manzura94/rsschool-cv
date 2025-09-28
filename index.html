@@ -9,6 +9,16 @@
   </head>
   <body>
     <div class="wrapper">
+        <nav class="navigation">
+   <ul>
+     <li><a href="#about">About Me</a></li>
+     <li><a href="#skills">Skills</a></li>
+     <li><a href="#languages">Languages</a></li>
+     <li><a href="#projects">Projects</a></li>
+     <li><a href="#education">Education</a></li>
+     <li><a href="#contacts">Contacts</a></li>
+   </ul>
+ </nav>
       <div class="columns _container">
         <aside class="left-column">
           <header>
@@ -19,7 +29,7 @@
             <h2>Junior Frontend Developer</h2>
           </header>
           <div class="main-container">
-            <section class="contacts">
+            <section id="contacts" class="contacts">
               <div class="section-title">
                 <h3>Contacts</h3>
               </div>
@@ -44,7 +54,7 @@
                 </li>
               </ul>
             </section>
-            <section class="skills">
+            <section id="skills" class="skills">
               <div class="section-title">
                 <h3>Skills</h3>
               </div>
@@ -57,7 +67,7 @@
                 <li>VS Code</li>
               </ul>
             </section>
-            <section class="languages">
+            <section id="languages" class="languages">
               <div class="section-title">
                 <h3>Languages</h3>
               </div>
@@ -82,8 +92,8 @@
             </section>
           </div>
         </aside>
-        <div class="right-column">
-          <section class="about">
+        <main class="right-column">
+          <section id="about" class="about">
             <div class="sub-header">
               <img src="./img/icons/myself.svg" alt="myself icon" />
               <div class="description-title">
@@ -106,7 +116,7 @@
               Internship in one of the IT startup company in my hometown
             </p>
           </section>
-          <section class="education">
+          <section id="education" class="education">
             <div class="sub-header">
               <img src="./img/icons/education.svg" alt="education icon" />
               <div class="description-title">
@@ -127,17 +137,29 @@
             <p>Business Consulting and Management</p>
             <p>Years: 2023-2025</p>
           </section>
-          <section class="courses">
+          <section id="projects" class="courses">
             <div class="sub-header">
               <img src="./img/icons/courses.svg" alt="course icon" />
               <div class="description-title">
-                <h3>Courses</h3>
+                <h3>Projects</h3>
               </div>
             </div>
             <ul>
-              <li>Data Learning Center in Urgench</li>
-              <li>JavaScript Manual on learnjavascript.ru</li>
-              <li>RS Schools «JavaScript/Front-end. Stage 0»</li>
+              <li> <a class="projects-link" href="https://portfolio-git-main-manzura94s-projects.vercel.app/">Portfolio</a></li>
+              <li>
+                <a class="projects-link" href="https://rng-graphiql.vercel.app/">
+                  Graphiql
+                </a>
+              </li>
+              <li>
+                <a class="projects-link" href="https://tejamkor.vercel.app/">Tejamkor</a>
+              </li>
+              <li>
+                <a class="projects-link" href="https://pokedex-alpha-ecru.vercel.app/">Pokedex</a>
+              </li>
+              <li>
+                <a class="projects-link" href="https://hangman-game-test.vercel.app/">Hangman</a>
+              </li>
             </ul>
           </section>
           <section class="code-example">
@@ -148,7 +170,7 @@
               </div>
             </div>
             <p>
-              There is a given array with objects in itwith id and parent
+              There is a given array with objects in it with id and parent
               number, we should first open new children key in an object with
               empty array and if object parent number matches other objects id,
               that should be nested in children array of that matched object
@@ -175,15 +197,15 @@
                                     </code>
             </pre>
           </section>
-        </div>
+        </main>
       </div>
-      <footer>
+      <footer class="footer _container">
         <div class="container">
           <a href="https://github.com/manzura94" class="github">
             <img src="./img/icons/github.svg" alt="github icon" />
             <span>Visit my Github</span>
           </a>
-          <p>10/2022</p>
+          <p>09/2025</p>
           <a href="https://rs.school/js/" class="rschool">
             <img
               class="change"
